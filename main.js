@@ -11,7 +11,7 @@ const home = require("./routes/home");
 
 const logger = require("./config/logger");
 
-const PORT = process.env.PORT;
+const PORT = 3000;
 
 app.set("views", "./views");
 app.set("view engine", "ejs");
